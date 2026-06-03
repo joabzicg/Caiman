@@ -7908,7 +7908,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "U8"
 				(at 25.4 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7928,7 +7928,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LGA-14L_2P5X3X0P86_STM"
+			(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8134,42 +8134,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 50.8 -15.24 180)
 					(length 7.62)
@@ -8289,6 +8253,44 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LSM6DSO_1_1"
+				(pin power_in line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10776,12 +10778,6 @@
 		(uuid "55951071-e48c-4018-9bdf-7aa0f30d2bbd")
 	)
 	(junction
-		(at 129.54 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5975834b-4fe5-4e67-a845-51b4001bba5f")
-	)
-	(junction
 		(at 193.04 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11218,12 +11214,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daf64515-29bc-4fce-a50b-9db8a39444b2")
-	)
-	(junction
-		(at 137.16 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd095da7-545b-4b1e-a90a-1c811eb17a30")
 	)
 	(junction
 		(at 44.45 260.35)
@@ -13651,7 +13641,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 30.48) (xy 137.16 30.48)
+			(xy 128.27 30.48) (xy 139.7 30.48)
 		)
 		(stroke
 			(width 0)
@@ -14771,16 +14761,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 139.7 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a90fcde4-ca29-4c99-bf4e-b17965b4eb64")
-	)
-	(wire
-		(pts
 			(xy 233.68 160.02) (xy 213.36 160.02)
 		)
 		(stroke
@@ -15798,16 +15778,6 @@
 			(type default)
 		)
 		(uuid "dcf44660-2e73-460b-acda-d7cc3e59324a")
-	)
-	(wire
-		(pts
-			(xy 128.27 30.48) (xy 129.54 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddef1174-bb7e-430d-88c5-08dee45decb8")
 	)
 	(wire
 		(pts
@@ -23300,84 +23270,6 @@
 			(project "caiman"
 				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 137.16 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bd7ae2f-35c8-40a9-9694-ff71f3534a1a")
-		(property "Reference" "#FLG03"
-			(at 137.16 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 137.16 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 137.16 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b866b11b-934c-44a7-bdcd-adb5edcb2cad")
-		)
-		(instances
-			(project "caiman"
-				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -33969,83 +33861,6 @@
 			(project "caiman"
 				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 129.54 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb51ff4d-e352-4770-a94c-70565d3b3eb6")
-		(property "Reference" "#FLG02"
-			(at 129.54 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 127.254 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 129.54 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c3688ce-3d30-42c8-9df7-6d3b1786f3f7")
-		)
-		(instances
-			(project "caiman"
-				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
