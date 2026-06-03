@@ -12431,16 +12431,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 260.35) (xy 44.45 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "342d1ef3-6fd6-4bb7-bb49-eb5d6e3451fe")
-	)
-	(wire
-		(pts
 			(xy 297.18 166.37) (xy 290.83 166.37)
 		)
 		(stroke
@@ -16408,6 +16398,16 @@
 			(type default)
 		)
 		(uuid "fbab5ab0-964e-4430-a304-55cb22175512")
+	)
+	(wire
+		(pts
+			(xy 35.56 260.35) (xy 44.45 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc52920-ffc8-457b-88f5-a9acab766477")
 	)
 	(wire
 		(pts
@@ -21778,6 +21778,85 @@
 			(project "caiman"
 				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 278.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c73663a-355e-4ba1-90d4-8fae03f0c4d2")
+		(property "Reference" "#PWR082"
+			(at 29.21 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 278.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9274cb5-0418-4335-9c75-75f212730759")
+		)
+		(instances
+			(project "caiman"
+				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -30271,85 +30350,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 278.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad23f0cb-8a0d-4fad-b373-77bf9bba239b")
-		(property "Reference" "#PWR081"
-			(at 29.21 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 278.1299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed05b25d-3fd4-4ceb-8f79-1bbef61c4758")
-		)
-		(instances
-			(project "caiman"
-				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 209.55 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -33071,6 +33071,84 @@
 			(project "caiman"
 				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 73.66 278.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c276b8b3-c7ca-4a18-8575-5882c125040c")
+		(property "Reference" "#FLG08"
+			(at 73.66 280.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 73.66 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3384a146-1ace-43fa-ab94-18742526e63c")
+		)
+		(instances
+			(project "caiman"
+				(path "/62753ef5-0517-4de9-b874-1a8d20850570"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)

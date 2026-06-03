@@ -821,7 +821,7 @@
         "uuid": "62753ef5-0517-4de9-b874-1a8d20850570"
       }
     ],
-    "used_designators": "#PWR82-90",
+    "used_designators": "#PWR81-90,#FLG2,#FLG8",
     "variants": []
   },
   "sheets": [
