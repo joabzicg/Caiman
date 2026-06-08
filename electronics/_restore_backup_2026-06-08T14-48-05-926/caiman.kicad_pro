@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "height": 0.35,
+          "width": 0.625
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,52 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|148612500|100337500|09eb1eb9-9ca8-45d5-8d71-1cbceb5984ff|6b78ce90-ffda-40b2-8f37-531181e49125",
-          ""
-        ],
-        [
-          "clearance|160125000|98812500|7b03f738-9fe8-46c9-9af1-5a7897aa26a9|0853f399-9937-4068-a9a5-48eaef029fe2",
-          ""
-        ],
-        [
-          "clearance|160125000|98812500|7b03f738-9fe8-46c9-9af1-5a7897aa26a9|decdd05f-b39a-41f6-a027-80cfcee9ee45",
-          ""
-        ],
-        [
-          "clearance|160175000|99787500|7f7e8344-ed0d-4899-9a4d-bf5e1cb1fbad|cea57fd4-df79-4ef5-8dc9-64e657e1a3a4",
-          ""
-        ],
-        [
-          "clearance|161400000|99487500|84307e93-86aa-4558-9fcd-a42e14840b2e|08e14ac2-bca0-4e78-8a41-701eab5ff99b",
-          ""
-        ],
-        [
-          "clearance|163693750|92100000|3821341d-93f5-4b77-ad66-2fd484d2baf0|fe397f67-7964-4ea0-ab2c-c7b2fc44f408",
-          ""
-        ],
-        [
-          "clearance|172158000|120248000|5935d7a7-381c-45e9-ae3d-55316f4b2fc4|a90b549b-435c-49ef-9b1f-c6d94e86e24c",
-          ""
-        ],
-        [
-          "items_not_allowed|109365000|94525000|a6f8a0b2-ce6d-4aba-acb2-46ceb240ebea|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|120325000|106475000|6628de0d-71d2-4672-86f7-8ce8d4fe947f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|125225000|105875000|a3690860-2a3a-4519-a09d-b25aeb8ba6c2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|197500000|100000000|6e380834-f444-49d1-9219-c96415edd9b8|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -194,13 +149,13 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.1,
-        "min_copper_edge_clearance": 0.49,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,

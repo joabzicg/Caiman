@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "app_sensors.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -808,10 +808,17 @@ static void MX_GPIO_Init(void)
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
+  
+  // Initialize all sensors and SD Card
+  AppSensors_Init();
+
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    // Read sensors and log data continuously
+    AppSensors_Task();
+    
+    osDelay(1); // Small delay to yield execution to other RTOS threads if necessary
   }
   /* USER CODE END 5 */
 }
