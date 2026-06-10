@@ -44,11 +44,28 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    Core/Src/app_sensors.c
+    Core/Src/logger.c
+    Core/Src/drivers/lsm6dso.c
+    Core/Src/drivers/lis2mdl.c
+    Core/Src/drivers/lps22hb.c
+    Core/Src/drivers/gnss.c
+    Core/Src/drivers/rgb_led.c
+    Core/Src/drivers/bar30.c
+    Core/Src/drivers/ping2.c
+    Core/Src/drivers/battery.c
+    Core/Src/drivers/leak.c
+    Core/Src/drivers/mag_switch.c
+    Core/Src/drivers/rc_receiver.c
+    Core/Src/drivers/rf_comm.c
+    Core/Src/drivers/esc.c
     # Add user sources here
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+    Core/Inc
+    Core/Inc/drivers
     # Add user defined include paths
 )
 
