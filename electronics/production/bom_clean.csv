@@ -1,5 +1,4 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"_3, _2, ",,3,,
+Designator,Footprint,Quantity,Value,LCSC Part #
 "C1, C2",0603,2,100nF,
 "C10, C9",0805,2,"0.1uF, 50V",
 C11,CP_Elec_8x10,1,"47uF, 50v",
@@ -55,7 +54,7 @@ R5,0603,1,27k,
 U1,TSOT-23-6,1,AP63205WU,
 U10,SOT-23-5,1,SN74LV1T34DBV,
 U2,TSOT-23-6,1,AP63203WU,
-U3,TO-92_Inline,1,US1881,
+U3,TO-92,1,US1881,
 U4,SOT-23-6,1,LM74700,
 U5,ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y,1,LPS22HBTR,
 U6,LGA-12_2x2mm_P0.5mm,1,LIS2MDLTR,
